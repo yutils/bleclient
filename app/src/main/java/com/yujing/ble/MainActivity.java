@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 protected void init() {
                     binding.title.setText("关于");
-                    binding.tvContent.setText("蓝牙BLE客户端\n作者:余静\n实现蓝牙BLE通信，突破单次发送20字节\n\n完全开放使用\ngithub地址：https://github.com/yutils/bleclient\n\n广播服务端请参考：https://github.com/yutils/yutils/blob/master/app/src/main/java/com/yujing/test/activity/BleServerActivity.kt");
+                    binding.tvContent.setText("蓝牙BLE客户端\n作者:余静\n实现蓝牙BLE通信，突破单次发送20字节\n\n完全开放使用\ngithub地址：https://github.com/yutils/bleclient\n\n广播服务端请参考：https://github.com/yutils/yutils/tree/master/app/src/main/java/com/yujing/test/activity/bluetooth");
                     binding.btConfirm.setOnClickListener(v -> dismiss());
                 }
             }
