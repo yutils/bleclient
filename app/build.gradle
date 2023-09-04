@@ -6,7 +6,7 @@ plugins {
 }
 android {
     compileSdk 33
-    
+    namespace 'com.yujing.ble'
     defaultConfig {
         applicationId "com.yujing.ble"
         minSdk 21
